@@ -1,0 +1,31 @@
+class Dimension {
+  static const double gaptooSmall = 5.0;
+  static const double gapSmall = 5.0;
+  static const double gapMedium = 10.0;
+  static const double gapLarge = 15.0;
+  static const double gapXLarge = 20.0;
+  static const double textSizeXXSmall = 10.0;
+  static const double textSizeXSmall = 12.0;
+  static const double textSizeSmall = 14.0;
+  static const double textSizeNormal = 16.0;
+  static const double textSizeMedium = 18.0;
+  static const double textSizeLarge = 20.0;
+  static const double textSizeXLarge = 22.0;
+  static const double textSizeXXLarge = 24.0;
+  static const double cornerRadiusXSmall = 6.0;
+  static const double cornerRadiusSmall = 10.0;
+  static const double cornerRadius = 16.0;
+  static const double cornerRadiusMedium = 22.0;
+  static const double cornerRadiusLarge = 28.0;
+  static const double cornerRadiusXLarge = 34.0;
+  static const double paddingXXSmall = 4.0;
+  static const double paddingXSmall = 8.0;
+  static const double paddingSmall = 12.0;
+  static const double paddingNormal = 16.0;
+  static const double paddingLarge = 20.0;
+  static const double imageXSmall = 35.0;
+  static const double imageSmall = 50.0;
+  static const double imagesSmall = 60.0;
+  static const double imageMedium = 100.0;
+  static const double imageLarge = 150.0;
+}
