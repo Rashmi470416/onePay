@@ -5,6 +5,7 @@ import 'package:oneplus/route/app_routes.dart';
 import 'package:oneplus/utils/display_utils.dart';
 import 'package:oneplus/views/dashboard_screen/home_screen/home_screen.dart';
 import 'package:oneplus/views/offers_screen/offers_screen.dart';
+import 'package:oneplus/views/rewards_screen/rewards_screen.dart';
 import 'package:oneplus/widgets/circular_image_view.dart';
 import 'package:oneplus/widgets/icon_button.dart';
 
@@ -132,15 +133,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       border: Border(
                           top: BorderSide(color: Colors.grey, width: 0.2))),
                   child: TabBarView(children: <Widget>[
-                    Container(child: HomeDashboardScreen()),
+                    Container(child: const HomeDashboardScreen()),
                     Container(
                       child: Center(child: Text("Balance")),
                     ),
                     Container(
-                      child: OfferDashboardScreen(),
+                      child: const OfferDashboardScreen(),
                     ),
                     Container(
-                      child: Center(child: Text("REWARDS")),
+                      child: const RewardsScreen(),
                     ),
                   ]))
             ]));

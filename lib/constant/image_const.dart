@@ -39,4 +39,8 @@ class ImageConstant {
   static String fruitNinjaImg = "assets/png/Rectangle 95 (2).png";
   static String freeFireImg = "assets/png/Rectangle 95 (3).png";
   static String otpImge = "assets/png/Group 75894.png";
+  static String waterImg = "assets/png/Water.png";
+  static String playGameImg = "assets/png/twemoji_video-game.png";
+  static String plagameImg2 = "assets/png/Rectangle 138.png";
+  static String referFriendImg = "assets/png/Rectangle 139.png";
 }

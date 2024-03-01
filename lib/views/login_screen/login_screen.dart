@@ -58,7 +58,7 @@ class _LoginSCreenState extends State<LoginSCreen> {
           vGap(10),
           _varifyBtn(),
           vGap(5),
-          _textWidget()
+          _textWidget(),
         ],
       ),
     ));

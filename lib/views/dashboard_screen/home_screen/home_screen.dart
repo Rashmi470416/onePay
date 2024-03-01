@@ -204,7 +204,7 @@ class _HomeDashboardScreenState extends State<HomeDashboardScreen> {
               ),
             ),
           ),
-          vGap(60),
+          vGap(80),
         ],
       ),
     );

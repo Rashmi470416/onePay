@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:oneplus/constant/color_const.dart';
 import 'package:oneplus/constant/image_const.dart';
 import 'package:oneplus/utils/display_utils.dart';

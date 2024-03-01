@@ -88,12 +88,12 @@ class _OtpScreenState extends State<OtpScreen> {
         ClipPath(
           clipper: WaveClipper(),
           child: Container(
-              padding: EdgeInsets.only(bottom: 50),
+              padding: const EdgeInsets.only(bottom: 50),
               color: bgBlueColr,
               height: 280,
               alignment: Alignment.center,
               child: Padding(
-                padding: EdgeInsets.only(right: 0, bottom: 10),
+                padding: const EdgeInsets.only(right: 0, bottom: 10),
                 child: Image.asset(ImageConstant.otpImge),
               )),
         ),
@@ -165,7 +165,6 @@ class _OtpScreenState extends State<OtpScreen> {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         errorTextSpace: 20,
         autoFocus: true,
-
         pinTheme: PinTheme(
           shape: PinCodeFieldShape.underline,
           fieldHeight: 50,
@@ -198,10 +197,9 @@ class _OtpScreenState extends State<OtpScreen> {
 
         cursorColor: whiteColor,
         cursorHeight: 10,
-        animationDuration: Duration(milliseconds: 300),
+        animationDuration: const Duration(milliseconds: 300),
         enableActiveFill: true,
-
-        textStyle: TextStyle(color: blackColor),
+        textStyle: const TextStyle(color: blackColor),
         errorAnimationController: errorController,
         controller: otpController,
         keyboardType: TextInputType.number,
@@ -393,16 +391,16 @@ class _OtpScreenState extends State<OtpScreen> {
           showCursor: false,
           readOnly: false,
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           keyboardType: TextInputType.number,
           maxLength: 1,
           decoration: InputDecoration(
-            counter: Offstage(),
+            counter: const Offstage(),
             enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(width: 2, color: Colors.black12),
+                borderSide: const BorderSide(width: 2, color: Colors.black12),
                 borderRadius: BorderRadius.circular(12)),
             focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(width: 2, color: blueColor),
+                borderSide: const BorderSide(width: 2, color: blueColor),
                 borderRadius: BorderRadius.circular(12)),
           ),
         ),
